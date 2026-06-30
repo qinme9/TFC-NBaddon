@@ -9,22 +9,15 @@ import net.neoforged.fml.event.lifecycle.FMLClientSetupEvent;
 import net.neoforged.neoforge.client.gui.ConfigurationScreen;
 import net.neoforged.neoforge.client.gui.IConfigScreenFactory;
 
-// This class will not load on dedicated servers. Accessing client side code from here is safe.
 @Mod(value = TFCNBAddon.MODID, dist = Dist.CLIENT)
-// You can use EventBusSubscriber to automatically register all static methods in the class annotated with @SubscribeEvent
-@EventBusSubscriber(modid = TFCNBAddon.MODID, value = Dist.CLIENT)
+@EventBusSubscriber(modid = TFCNBAddon.MODID, value = Dist.CLIENT, bus = EventBusSubscriber.Bus.MOD)
 public class TFCNBAddonClient {
     public TFCNBAddonClient(ModContainer container) {
-        // Allows NeoForge to create a config screen for this mod's configs.
         container.registerExtensionPoint(IConfigScreenFactory.class, ConfigurationScreen::new);
     }
 
     @SubscribeEvent
     static void onClientSetup(FMLClientSetupEvent event) {
-        // Client setup code
         TFCNBAddon.LOGGER.info("[TFC:NBAddon] 客户端初始化完成");
-        
-        // Register client-side content here
-        // Examples: block entity renderers, item properties, etc.
     }
 }

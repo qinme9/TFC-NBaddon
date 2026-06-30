@@ -41,3 +41,9 @@ repo/
 
 ### Game Runtime ###
 NeoTFCText/
+
+### IDE/Workspace ###
+.workbuddy/
+.aionrs/
+
+logs/

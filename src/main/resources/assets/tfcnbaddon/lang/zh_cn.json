@@ -1,6 +1,7 @@
 {
   "itemGroup.tfcnbaddon": "TFC: NBAddon",
   "item.tfcnbaddon.super_nutrition_food": "超级营养食物",
+  "block.tfcnbaddon.fridge": "冰箱",
   
   "config.tfcnbaddon.enableLogging": "启用详细日志",
   "config.tfcnbaddon.enableLogging.tooltip": "是否启用详细日志输出",

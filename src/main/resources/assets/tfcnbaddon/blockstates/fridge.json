@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "tfcnbaddon:block/fridge" },
+    "facing=east":  { "model": "tfcnbaddon:block/fridge", "y": 90 },
+    "facing=south": { "model": "tfcnbaddon:block/fridge", "y": 180 },
+    "facing=west":  { "model": "tfcnbaddon:block/fridge", "y": 270 }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "textures": {
+    "front": "tfcnbaddon:block/fridge_front",
+    "door_side": "tfcnbaddon:block/fridge_door_side",
+    "particle": "tfcnbaddon:block/fridge_front"
+  },
+  "elements": [
+    {
+      "comment": "冰箱门",
+      "from": [1, 1, 0],
+      "to": [15, 15, 2],
+      "faces": {
+        "north": {"uv": [0, 0, 14, 14], "texture": "#front"},
+        "south": {"uv": [0, 0, 14, 14], "texture": "#door_side"},
+        "east":  {"uv": [14, 0, 16, 14], "texture": "#door_side"},
+        "west":  {"uv": [14, 0, 16, 14], "texture": "#door_side"},
+        "up":    {"uv": [0, 0, 14, 2], "texture": "#door_side"},
+        "down":  {"uv": [0, 0, 14, 2], "texture": "#door_side"}
+      }
+    }
+  ]
+}

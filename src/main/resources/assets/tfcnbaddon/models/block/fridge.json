@@ -1,0 +1,49 @@
+{
+  "textures": {
+    "side": "tfcnbaddon:block/fridge_side",
+    "top": "tfcnbaddon:block/fridge_top",
+    "inner": "tfcnbaddon:block/fridge_inner",
+    "particle": "tfcnbaddon:block/fridge_side"
+  },
+  "elements": [
+    {
+      "comment": "主体",
+      "from": [0, 0, 0],
+      "to": [16, 16, 16],
+      "faces": {
+        "north": {"uv": [0, 0, 16, 16], "texture": "#inner"},
+        "east":  {"uv": [0, 0, 16, 16], "texture": "#side"},
+        "west":  {"uv": [0, 0, 16, 16], "texture": "#side"},
+        "up":    {"uv": [0, 0, 16, 16], "texture": "#top"},
+        "down":  {"uv": [0, 0, 16, 16], "texture": "#top"},
+        "south": {"uv": [0, 0, 16, 16], "texture": "#side"}
+      }
+    },
+    {
+      "comment": "搁板1",
+      "from": [1, 5, 0],
+      "to": [15, 6, 15],
+      "faces": {
+        "north": {"uv": [1, 5, 15, 6], "texture": "#inner"},
+        "south": {"uv": [1, 5, 15, 6], "texture": "#inner"},
+        "east":  {"uv": [0, 5, 15, 6], "texture": "#inner"},
+        "west":  {"uv": [1, 5, 16, 6], "texture": "#inner"},
+        "up":    {"uv": [1, 0, 15, 15], "texture": "#side"},
+        "down":  {"uv": [1, 0, 15, 15], "texture": "#side"}
+      }
+    },
+    {
+      "comment": "搁板2",
+      "from": [1, 10, 0],
+      "to": [15, 11, 15],
+      "faces": {
+        "north": {"uv": [1, 10, 15, 11], "texture": "#inner"},
+        "south": {"uv": [1, 10, 15, 11], "texture": "#inner"},
+        "east":  {"uv": [0, 10, 15, 11], "texture": "#inner"},
+        "west":  {"uv": [1, 10, 16, 11], "texture": "#inner"},
+        "up":    {"uv": [1, 0, 15, 15], "texture": "#side"},
+        "down":  {"uv": [1, 0, 15, 15], "texture": "#side"}
+      }
+    }
+  ]
+}

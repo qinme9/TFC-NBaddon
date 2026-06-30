@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "III",
+    "ICI",
+    "III"
+  ],
+  "key": {
+    "I": { "item": "tfc:metal/ingot/wrought_iron" },
+    "C": { "item": "tfc:powder/salt" }
+  },
+  "result": {
+    "id": "tfcnbaddon:fridge",
+    "count": 1
+  }
+}
