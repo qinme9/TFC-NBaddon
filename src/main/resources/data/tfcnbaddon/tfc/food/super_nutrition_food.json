@@ -1,0 +1,15 @@
+{
+  "ingredient": {
+    "item": "tfcnbaddon:super_nutrition_food"
+  },
+  "hunger": 8,
+  "saturation": 0.6,
+  "water": 30,
+  "decay_modifier": 2.0,
+  "grain": 2.0,
+  "fruit": 2.0,
+  "vegetables": 2.0,
+  "protein": 2.0,
+  "dairy": 2.0,
+  "_comment": "此文件定义 TFC 食物属性。实际生效的营养/口渴值由 SuperNutritionFoodItem.java 通过 TFC API 直接写入，不受此文件约束。此文件保留以确保 TFC 系统的兼容性。"
+}

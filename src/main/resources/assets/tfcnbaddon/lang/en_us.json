@@ -1,0 +1,26 @@
+{
+  "itemGroup.tfcnbaddon": "TFC: NBAddon",
+  "item.tfcnbaddon.super_nutrition_food": "Super Nutrition Food",
+  
+  "config.tfcnbaddon.enableLogging": "Enable Detailed Logging",
+  "config.tfcnbaddon.enableLogging.tooltip": "Whether to enable detailed log output",
+  
+  "config.tfcnbaddon.superFood.grain": "Grain Nutrition",
+  "config.tfcnbaddon.superFood.grain.tooltip": "Grain nutrition value provided by Super Nutrition Food",
+  "config.tfcnbaddon.superFood.fruit": "Fruit Nutrition",
+  "config.tfcnbaddon.superFood.fruit.tooltip": "Fruit nutrition value provided by Super Nutrition Food",
+  "config.tfcnbaddon.superFood.vegetables": "Vegetables Nutrition",
+  "config.tfcnbaddon.superFood.vegetables.tooltip": "Vegetables nutrition value provided by Super Nutrition Food",
+  "config.tfcnbaddon.superFood.protein": "Protein Nutrition",
+  "config.tfcnbaddon.superFood.protein.tooltip": "Protein nutrition value provided by Super Nutrition Food",
+  "config.tfcnbaddon.superFood.dairy": "Dairy Nutrition",
+  "config.tfcnbaddon.superFood.dairy.tooltip": "Dairy nutrition value provided by Super Nutrition Food",
+  "config.tfcnbaddon.superFood.water": "Thirst Value",
+  "config.tfcnbaddon.superFood.water.tooltip": "Thirst value provided by Super Nutrition Food (max 100)",
+  "config.tfcnbaddon.superFood.hunger": "Hunger Value",
+  "config.tfcnbaddon.superFood.hunger.tooltip": "Hunger value provided by Super Nutrition Food (max 20)",
+  "config.tfcnbaddon.superFood.saturation": "Saturation",
+  "config.tfcnbaddon.superFood.saturation.tooltip": "Saturation provided by Super Nutrition Food",
+  "config.tfcnbaddon.superFood.decay": "Decay Modifier",
+  "config.tfcnbaddon.superFood.decay.tooltip": "Decay speed of Super Nutrition Food (0 = no decay)"
+}

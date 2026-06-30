@@ -1,0 +1,26 @@
+{
+  "itemGroup.tfcnbaddon": "TFC: NBAddon",
+  "item.tfcnbaddon.super_nutrition_food": "超级营养食物",
+  
+  "config.tfcnbaddon.enableLogging": "启用详细日志",
+  "config.tfcnbaddon.enableLogging.tooltip": "是否启用详细日志输出",
+  
+  "config.tfcnbaddon.superFood.grain": "谷物营养值",
+  "config.tfcnbaddon.superFood.grain.tooltip": "超级营养食物提供的谷物营养值",
+  "config.tfcnbaddon.superFood.fruit": "水果营养值",
+  "config.tfcnbaddon.superFood.fruit.tooltip": "超级营养食物提供的水果营养值",
+  "config.tfcnbaddon.superFood.vegetables": "蔬菜营养值",
+  "config.tfcnbaddon.superFood.vegetables.tooltip": "超级营养食物提供的蔬菜营养值",
+  "config.tfcnbaddon.superFood.protein": "蛋白质营养值",
+  "config.tfcnbaddon.superFood.protein.tooltip": "超级营养食物提供的蛋白质营养值",
+  "config.tfcnbaddon.superFood.dairy": "乳制品营养值",
+  "config.tfcnbaddon.superFood.dairy.tooltip": "超级营养食物提供的乳制品营养值",
+  "config.tfcnbaddon.superFood.water": "口渴值",
+  "config.tfcnbaddon.superFood.water.tooltip": "超级营养食物提供的口渴值（满值100）",
+  "config.tfcnbaddon.superFood.hunger": "饥饿值",
+  "config.tfcnbaddon.superFood.hunger.tooltip": "超级营养食物提供的饥饿值（满值20）",
+  "config.tfcnbaddon.superFood.saturation": "饱和度",
+  "config.tfcnbaddon.superFood.saturation.tooltip": "超级营养食物提供的饱和度",
+  "config.tfcnbaddon.superFood.decay": "腐烂速度",
+  "config.tfcnbaddon.superFood.decay.tooltip": "超级营养食物的腐烂速度（0为不腐烂）"
+}

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    { "item": "tfc:groundcover/guano" },
+    { "item": "tfc:groundcover/guano" },
+    { "item": "tfc:groundcover/guano" },
+    { "item": "tfc:groundcover/guano" },
+    { "item": "tfc:groundcover/guano" },
+    { "item": "tfc:groundcover/guano" },
+    { "item": "tfc:groundcover/guano" },
+    { "item": "tfc:groundcover/guano" },
+    { "item": "tfc:groundcover/guano" }
+  ],
+  "result": {
+    "id": "tfcnbaddon:super_nutrition_food",
+    "count": 1
+  }
+}
